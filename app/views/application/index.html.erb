@@ -1,0 +1,11 @@
+<h1>Index</h1>
+<%= link_to "Page One", one_path %>
+
+<p>Demonstrates that <code>turbo:visit</code> is not dispatched on restoration visits when a request is in progress.</p>
+
+<ol>
+  <li>Open devtools</li>
+  <li>Tap the link to Page One</li>
+  <li>Quickly press Back</li>
+  <li>In the devtools console, observe that `turbo:visit` is only dispatched once</li>
+</ol>
